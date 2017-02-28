@@ -1,0 +1,43 @@
+/* Stylesheet by Rosemary P. Wardley, 2017 */
+
+#map {
+    height: 600px;
+    width: 80%;
+    display: inline-block;}
+    /*position: relative;*/ 
+
+/*#panel {
+    height: 600px;
+    width: 16%;
+    display: inline-block;
+    vertical-align: top;
+}*/
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+#slider {
+    width: 35%;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    line-height: 20px;
+}
+/* .range-slider {
+    width: 35%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    line-height: 20px;
+}*/
+
+#forward {
+    float: right;
+}
+
+#reverse {
+    float: left;
+}
