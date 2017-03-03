@@ -1,10 +1,21 @@
 /* Stylesheet by Rosemary P. Wardley, 2017 */
+#mapwrapper {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Rubik', sans-serif;
+}
 
 #map {
-    height: 600px;
-    width: 80%;
-    display: inline-block;}
-    /*position: relative;*/ 
+    height: 450px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    font-family: 'Rubik', sans-serif;
+}
 
 /*#panel {
     height: 600px;
@@ -17,22 +28,64 @@
     margin: 0.2em 0;
 }
 
-#slider {
-    width: 35%;
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    line-height: 20px;
-}
-/* .range-slider {
-    width: 35%;
-    padding: 20px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    line-height: 20px;
+/*#legendtitle {
+    width: 350px;
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
 }*/
+
+.yeartitle {
+    width: 350px;
+    height: 25px;
+    position: absolute;
+    bottom: 27px;
+    left: 10px;
+}
+
+#slider {
+    width: 350px;
+    height: 25px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    z-index: 10;
+}
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px
+}
+
+.legend-control-container {
+    width: 180px;
+    height: 180px;
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+#temporal-legend {
+    line-height: 30px;
+}
+
+.range-slider {
+    width: 200px;
+    text-align: center;
+}
 
 #forward {
     float: right;

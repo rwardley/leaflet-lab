@@ -10,17 +10,27 @@
 		<link rel="stylesheet" href="css/MarkerCluster.css">
 		<link rel="stylesheet" href="css/MarkerCluster.Default.css">
 		<link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
 		<!--[if IE<9]>
 			<link rel="stylesheet" href="css/style.ie.css">
 		<![endif]-->
-	</head>
+     </head>
+    <body style="background-color:#fff;">
+    </body>
 
 	<body>
-		<!--put your initial page content here-->
-        <!--<p id="myheader"><h2>Athletic Participation by State</h2></p>-->
-	    <div id="map" class="leaflet-container"></div>
-        <div id="slider"></div>
+		<div class="header"></div>
+        <div class="header-cont">
+            <div style="color: gray"><center><h1>Students In Sport</h2></center></div>
+               <center><h3>Tracking the participation of high school students in sports from 2009-2015</h3></center>
+        </div>
+        <div id="mapwrapper">
+	       <div id="map" class="leaflet-container"></div>
+            <div id="slider"></div>
+            <div id="legendtitle"></div>
+        </div>
         
+         <div id="text" align="left"><p> For nearly 50 years <a href="http://www.nfhs.org/ParticipationStatics/ParticipationStatics.aspx">The National Federation of State High School Associations</a> has been keeping track of student-athlete's participation in sport. Here we examine the past 7 years of data to see whether the growth in digital entertainment and smartphone technology has lessened kids' desire to get out and sweat!</p></div>
 
 		<!--you can also use this space for internal scripts or stylesheets;
 		place these within <script> or <style> tags-->

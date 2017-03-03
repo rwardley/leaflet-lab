@@ -923,3 +923,62 @@ function getData(map){
 };
 
 $(document).ready(createMap);
+
+//////////////////////////////////////////////////////////////////////////////
+/* Stylesheet by Rosemary P. Wardley, 2017 */
+
+#map {
+    height: 600px;
+    width: 80%;
+    display: inline-block;}
+    /*position: relative;*/ 
+
+/*#panel {
+    height: 600px;
+    width: 16%;
+    display: inline-block;
+    vertical-align: top;
+}*/
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+/*#slider {
+    width: 35%;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    line-height: 20px;
+}
+ .range-slider {
+    width: 50%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    line-height: 20px;
+}*/
+
+#slider {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.range-slider {
+    width: 200px;
+}
+
+#forward {
+    float: right;
+}
+
+#reverse {
+    float: left;
+}
